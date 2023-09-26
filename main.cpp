@@ -21,7 +21,7 @@ void printPortions(unsigned int input){
 }
 
 int main(){
-	int input_q;
+	unsigned int input_q;
 	std::cout << "Введите кол-во тарелок:"; std::cin >> input_q;
 	if ((input_q+1)*input_q/2 % 2 != 0){
 		std::cout << "NO";
